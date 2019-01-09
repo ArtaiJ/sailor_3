@@ -1,0 +1,250 @@
+
+/*Sign button in the header__top*/
+
+.sign__btn{
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	outline: none;
+	background-color: rgba(16, 35, 55, 0.3);
+
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 100%;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 8px 20px;
+}
+
+.sign__btn:hover{
+	background-color: #fff;
+	color: red;
+	cursor: pointer;
+}
+
+.sign__btn:active{
+	transform: scale(0.99);
+}
+
+/*Submit button in the search form*/
+
+.search__btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	padding: 0 30px;
+	border: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 60px;
+	background-color: #e7434e;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.boat_img{
+	width: 28px;
+	height: 22px;
+	padding-right: 10px;
+}
+
+.search__btn:hover{
+	background-color: #34495e;
+	cursor: pointer;
+}
+
+.search__btn:active{
+	transform: scale(0.99);
+}
+
+.rent__btn{
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
+.destinations__btn{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #e7434e;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.destinations__btn:hover{
+	background-color: #34495e;
+	cursor: pointer;
+}
+
+.destinations__btn:active{
+	transform: scale(0.99);
+}
+
+.boat__btn{
+	text-transform: none;
+}
+
+
+.explore__btn{
+	border-radius: 5px;
+	border: 1px solid #bdbdbd;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	color: #343435;
+	letter-spacing: 0.04em;
+	padding: 20px 30px;
+}
+
+
+.explore__btn:hover{
+	background-color: #34495e;
+	cursor: pointer;
+	color: #fff;
+}
+
+.explore__btn:active{
+	transform: scale(0.99);
+}
+
+.subscribe__btn{
+	width: auto;
+	height: auto;
+	padding: 10px 15px;
+	border: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #e7434e;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.subscribe__btn:hover{
+	background-color: #34495e;
+	cursor: pointer;
+}
+
+.subscribe__btn:active{
+	transform: scale(0.99);
+}
+
+.go-top__btn{
+	display: none;
+	position: fixed;
+	background-color: unset;
+	bottom: 20px;
+	right: 30px;
+	z-index: 9;
+	border: none;
+	cursor: pointer;
+}
+
+.arrow__img{
+	width: 60px;
+	height: 60px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	.search__btn{
+		padding: 0 10px;
+		height: 50px;
+		font-weight: 600;
+		letter-spacing: normal;
+	}
+
+	.boat_img{
+		width: 22px;
+		height: 19px;
+		padding-right: 5px;
+	}
+
+	.destinations__btn{
+		left: 15px;
+		top: 15px;
+		padding: 5px 10px;
+	}
+
+	.sign__btn{
+		font-size: 14px;
+		font-weight: 600;
+		padding: 8px 15px;
+	}
+
+	.arrow__img{
+	width: 30px;
+	height: 30px;
+	}
+
+	
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	.search__btn{
+		padding: 0 10px;
+		height: 50px;
+		font-weight: 600;
+		letter-spacing: normal;
+	}
+
+	.boat_img{
+		width: 22px;
+		height: 19px;
+		padding-right: 5px;
+	}
+
+	.destinations__btn{
+		left: 15px;
+		top: 15px;
+		padding: 5px 10px;
+	}
+
+	.sign__btn{
+		font-size: 14px;
+		font-weight: 600;
+		padding: 8px 15px;
+	}
+
+	.arrow__img{
+	width: 40px;
+	height: 40px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.arrow__img{
+	width: 50px;
+	height: 50px;
+	}
+
+}

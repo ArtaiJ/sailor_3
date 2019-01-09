@@ -1,0 +1,9 @@
+@import url('vendor/reset.css');
+
+@import url('components/header.css');
+@import url('components/button.css');
+@import url('components/destinations.css');
+@import url('components/rent.css');
+@import url('components/boats.css');
+@import url('components/map.css');
+@import url('components/footer.css');

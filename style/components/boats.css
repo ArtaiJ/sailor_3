@@ -1,0 +1,255 @@
+.boats{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.boats__main{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.boats__text{
+	margin-bottom: 20px;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.04em;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 1em;
+	text-align: center;
+}
+
+.boats__subtext{
+	font-size: 18px;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.01em;
+	color: #2c3e50;
+	text-align: center;
+}
+
+.boats__images{
+	width: 100%;
+	padding: 0 115px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.boats-item{
+	width: 45%;
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border-radius: 20px;
+	position: relative;
+}
+
+
+.boats-img{
+	width: 100%;
+	transform: scale(1.045);
+	height: auto;
+	display: block;
+	position: relative;
+}
+
+.boats-item:hover > .boats-img{
+	transform: scale(1);
+	transition: all 200ms ease-in-out;
+}
+
+.boats-item:hover > .boats__img-text{
+	display: flex;
+	box-shadow: 0px -54px 89px 0px rgba(0, 0, 0, 0.9) inset;
+}
+
+.boats__img-text{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	bottom: 0px;
+	left: 20px;
+	display: none;
+	flex-flow: column;
+	transition: all 200ms ease-in-out;
+    left: 0;
+    padding: 10px 5%;
+    border-radius: 0 0 20px 20px;
+}
+
+.boats__img-title{
+	display: flex;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.04em;
+	font-size: 26px;
+	text-align: center;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.boats__img-subtitle{
+	display: flex;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.04em;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+
+
+/*EXPLORE MORE ITEMS*/
+
+.boats__more-item{
+	display: none;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+
+.btn__box{
+	display: block;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.boats{
+		padding: 0 10px;
+	}
+	
+	.boats__text{
+		font-size: 25px;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	.boats__subtext{
+		font-size: 14;
+		letter-spacing: normal;
+	}
+
+	.boats__images{
+		padding: 10px;
+		flex-flow: column;
+	}
+
+	.boats-item{
+		width: 100%;
+		height: auto;
+	}
+
+	.boats__img-text{
+		display: flex;
+		height: 60px;
+		box-shadow: 0px -54px 60px 0px rgba(0, 0, 0, 0.9) inset;
+	}
+
+	.boats__img-title{
+		font-size: 17px;
+	}
+
+	.boats__img-subtitle{
+		font-size: 14px;
+	}
+	
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	.boats{
+		padding: 0 10px;
+	}
+	
+	.boats__text{
+		font-size: 25px;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	.boats__subtext{
+		font-size: 14;
+		letter-spacing: normal;
+	}
+
+	.boats__images{
+		padding: 10px;
+		flex-flow: column;
+	}
+
+	.boats-item{
+		width: 100%;
+		height: auto;
+	}
+
+	.boats__img-text{
+		display: flex;
+		height: 60px;
+		box-shadow: 0px -54px 60px 0px rgba(0, 0, 0, 0.9) inset;
+	}
+
+	.boats__img-title{
+		font-size: 17px;
+	}
+
+	.boats__img-subtitle{
+		font-size: 14px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.boats{
+		padding: 0 10px;
+	}
+	
+	.boats__text{
+		font-size: 25px;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	.boats__subtext{
+		font-size: 14;
+		letter-spacing: normal;
+	}
+
+	.boats__images{
+		padding: 10px;
+		flex-flow: column;
+	}
+
+	.boats-item{
+		width: 100%;
+		height: auto;
+	}
+
+	.boats__img-text{
+		display: flex;
+		height: 80px;
+		box-shadow: 0px -54px 89px 0px rgba(0, 0, 0, 0.9) inset;
+	}
+
+	.boats__img-title{
+		font-size: 30px;
+	}
+
+	.boats__img-subtitle{
+		font-size: 20px;
+	}
+
+
+}
